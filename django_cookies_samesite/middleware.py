@@ -22,7 +22,7 @@ Cookie.Morsel._reserved["samesite"] = "SameSite"
 Cookie.Morsel._reserved.update({"samesite": "SameSite", "secure": "Secure"})
 
 # TODO: change this to 3.1.0 once Django 3.1 is released
-DJANGO_SUPPORTED_VERSION = "3.0.0"
+DJANGO_SUPPORTED_VERSION = "3.1.0"
 
 
 def get_config_setting(setting_name, default_value=None):
